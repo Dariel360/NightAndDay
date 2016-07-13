@@ -1,0 +1,29 @@
+#orb{
+  width: 400px;
+  height: 400px;
+  background-color:silver;
+  border-radius: 100%;
+  margin: 100px auto 0 auto;
+}
+.sun{
+  /*background-color: #FFDD00 !important;*/
+  background: rgb(255,175,75);
+background: -moz-radial-gradient(center, ellipse cover,  rgba(255,175,75,1) 30%, rgba(255,175,75,1) 64%);
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,175,75,1) 30%,rgba(255,175,75,1) 64%);
+background: radial-gradient(ellipse at center,  rgba(255,175,75,1) 30%,rgba(255,175,75,1) 64%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ffaf4b',GradientType=1 );
+
+  border: 10px solid #F1C40F;
+
+}
+.moon{
+  background-color: #BDC3C7 !important;
+  border:10px solid #EAEFF2;
+}
+  .daySky{
+    background: url("http://st.depositphotos.com/1000147/4032/v/380/depositphotos_40322539-Video-1920x1080---Day-sky-with-clouds-timelapse.jpg");
+    background-size: 1500px;
+  }
+  .nightSky{
+      background: url("http://montco.happeningmag.com/wp-content/uploads/2013/08/night-sky-hd-wallpaper-2.jpg")
+  }
